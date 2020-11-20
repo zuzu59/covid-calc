@@ -1,6 +1,6 @@
 # covid-calc
 Calculateur de risque de contamination lors d'un repas<br>
-zf2011120.1704
+zf2011120.1710
 
 ## Buts
 Permet de calculer la probabilité de se retrouver avec une personne malade du COVID-19 lors d'un repas avec des personnes venant de différentes régions de Suisse.
@@ -75,3 +75,5 @@ https://www.20min.ch/fr/story/dix-a-table-calculez-le-risque-dattraper-le-virus-
 
 https://covid19risk.biosci.gatech.edu/
 
+## Remerciements
+Merci à mon collègue de bureau, Giovanni (https://github.com/multiscan), pour m'avoir bien aidé sur ce petit projet très sympa où j'ai beaucoup appris lors d'un Dojo ;-)
