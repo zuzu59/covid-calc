@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h2>Calculateur de risque de contamination lors d'un repas</h2>
+zf201120.1438<br>
+
+<p>Permet de calculer la probabilité de se retrouver avec une personne malade du COVID-19 lors d'un repas avec des personnes venant de différentes régions de Suisse.<br>
+</p>
+
+<div id='canton1' class='cantondiv formdiv'>
+<input class="nbper" type="number" min="0" max="10" value="3" >
+</div>
+<div id='canton2' class='cantondiv formdiv'>
+<input class="nbper" type="number" min="0" max="10" value="2">
+</div>
+<div id='canton3' class='cantondiv formdiv'>
+<input class="nbper" type="number" min="0" max="10" value="2">
+</div>
+<div id='canton4' class='cantondiv formdiv'>
+<input class="nbper" type="number" min="0" max="10" value="">
+</div>
+
+<div id='bias' class='formdiv'>
+<input class="bias_value" type="text" value="3.5">
+<label>hypothèse, x fois supérieur</label>
+</div>
+
+
+<br>
+<button onclick="covid_calc()">CALC</button>
+<br><br>
+
+<p>
+  <div id="chance"></div>
+</p>
+
+<p>
+Le modèle prend aussi en compte le fait que le nombre réel de contaminations est supérieur de 2 à 5 fois au nombre de tests positifs, l’utilisateur peut calculer le risque en fonction cette hypothèses. 
+</p>
+
+<p>
+  <br>Source d'inspiration: 
+  <a href="https://covid19risk.biosci.gatech.edu/">https://covid19risk.biosci.gatech.edu/</a>
+</p>
+
+zf201120.1454<br>
+
+
+<script
+src="https://code.jquery.com/jquery-3.2.1.js"
+integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">
+</script>
+<script src="script.js">
+</script>
+
+</body>
+</html>

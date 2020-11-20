@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+.nbper, .bias_value {
+  width: 3em;
+  margin-right: 1em;
+}
+
+.formdiv {
+  margin-top: 5px;
+}
+
+#chance {
+  font-weight: bold;
+}
