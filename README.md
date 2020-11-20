@@ -1,6 +1,6 @@
 # covid-calc
 Calculateur de risque de contamination lors d'un repas<br>
-zf2011120.1518
+zf2011120.1521
 
 ## Buts
 Permet de calculer la probabilité de se retrouver avec une personne malade du COVID-19 lors d'un repas avec des personnes venant de différentes régions de Suisse.
@@ -56,8 +56,8 @@ https://zuzu59.github.io/covid-calc/index.html
 
 
 ## Juste pour faire joujou
-
 Si on veut juste *toucher* pour faire joujou on peut cliquer, **dans une fenêtre de navigation privée**, sur ceci:
-https://covid-calc.zuzu59.repl.co
+
+https://repl.it/@zuzu59/covid-calc#index.html
 
 Puis de cliquer sur le bouton *fork*, cela démarre un *bac à sable* pour faire joujou
