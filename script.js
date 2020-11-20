@@ -1,5 +1,5 @@
 /*
-zf201120.1457
+zf201120.1515
 sources:
 https://www.20min.ch/fr/story/dix-a-table-calculez-le-risque-dattraper-le-virus-883979398256
 https://covid19risk.biosci.gatech.edu/ (voir l'onglet tutorial)
