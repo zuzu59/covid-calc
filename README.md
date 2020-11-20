@@ -1,6 +1,6 @@
 # covid-calc
 Calculateur de risque de contamination lors d'un repas<br>
-zf2011120.1521
+zf2011120.1704
 
 ## Buts
 Permet de calculer la probabilité de se retrouver avec une personne malade du COVID-19 lors d'un repas avec des personnes venant de différentes régions de Suisse.
@@ -61,3 +61,17 @@ Si on veut juste *toucher* pour faire joujou on peut cliquer, **dans une fenêtr
 https://repl.it/@zuzu59/covid-calc#index.html
 
 Puis de cliquer sur le bouton *fork*, cela démarre un *bac à sable* pour faire joujou
+
+
+## Sources de données
+Les incidences, cantonales sur 14 jours, proviennent en temps réel depuis le site de la TSR !
+
+https://www.rts.ch/info/suisse/11137312-le-coronavirus-en-chiffres-et-en-cartes.html
+
+
+## Sources d'inspiration
+
+https://www.20min.ch/fr/story/dix-a-table-calculez-le-risque-dattraper-le-virus-883979398256
+
+https://covid19risk.biosci.gatech.edu/
+
